@@ -48,3 +48,19 @@ app.*.map.json
 # Firebase Config Dosyalari
 GoogleService-Info.plist
 google-services.json
+
+# --- EKSİK OLAN KRİTİK ANDROID DOSYALARI ---
+# SDK yolunu tutar, her bilgisayarda farklidir, yuklenmemeli.
+**/android/local.properties
+
+# Market imza sifrelerini tutar (COK KRITIK)
+**/android/key.properties
+
+# Market imza dosyalari (COK KRITIK)
+**/*.keystore
+**/*.jks
+
+# --- iOS TAVSIYESI ---
+# Bu klasor cok sistirir, repoya yuklenmesi onerilmez (gerektiginde 'pod install' ile olusur)
+**/ios/Pods/
+**/ios/.symlinks/
