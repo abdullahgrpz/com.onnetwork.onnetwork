@@ -1,0 +1,352 @@
+{
+  "helloWorld": "안녕하세요, 세계!",
+
+  "updateRequiredTitle": "업데이트 필요",
+  "updateRequiredMessage": "ON Network의 새롭고 개선된 버전을 사용할 수 있습니다. 계속 수익을 얻으려면 앱을 업데이트해야 합니다.",
+  "updateNowButton": "지금 업데이트",
+
+  "navHome": "홈",
+  "navTeam": "팀",
+  "navMarketplace": "마켓",
+  "navProfile": "프로필",
+
+  "authWelcomeBack": "다시 오신 것을 환영합니다!",
+  "authCreateAccount": "계정 생성",
+  "authEmail": "이메일",
+  "authErrorEmailEmpty": "이메일을 입력하세요",
+  "authErrorEmailInvalid": "유효한 이메일 주소를 입력하세요",
+  "authPassword": "비밀번호",
+  "authErrorPasswordEmpty": "비밀번호를 입력하세요",
+  "authErrorPasswordLength": "비밀번호는 6자 이상이어야 합니다",
+  "authConfirmPassword": "비밀번호 확인",
+  "authErrorConfirmPasswordEmpty": "비밀번호를 확인하세요",
+  "authErrorPasswordsNoMatch": "비밀번호가 일치하지 않습니다",
+  "authUsername": "사용자 이름",
+  "authUsernameHint": "3자 이상이어야 합니다",
+  "authErrorUsernameLength": "사용자 이름은 3자 이상이어야 합니다.",
+  "authInviteCode": "초대 코드 (선택 사항)",
+  "authInviteCodeHint": "예: A41DB9X1",
+  "authAgeConfirmation": "본인은 18세 이상이며 본 서비스를 합법적으로 이용할 자격이 있습니다.",
+  "authTermsConfirmationPrefix": "",
+  "authTermsOfService": "이용약관",
+  "authTermsConfirmationMid": " 및 ",
+  "authPrivacyPolicy": "개인정보 처리방침",
+  "authTermsConfirmationSuffix": "을(를) 읽고 동의합니다.",
+  "authErrorAge": "ON Network를 이용하려면 18세 이상이어야 합니다.",
+  "authErrorTerms": "이용약관 및 개인정보 처리방침에 동의해야 합니다.",
+  "authLogin": "로그인",
+  "authRegister": "가입하기",
+  "authSignInWithGoogle": "Google로 로그인",
+  "authSignUpWithGoogle": "Google로 가입하기",
+  "authSwitchToRegister": "계정이 없으신가요? 가입하기",
+  "authSwitchToLogin": "이미 계정이 있으신가요? 로그인",
+  "authForgotPassword": "비밀번호를 잊으셨나요?",
+  "authResetPassword": "비밀번호 재설정",
+  "authEnterEmailHint": "이메일을 입력하세요",
+  "authCancel": "취소",
+  "authSendResetLink": "재설정 링크 보내기",
+  "authResetLinkSent": "비밀번호 재설정 링크가 이메일로 전송되었습니다.",
+
+  "onboardingWelcomeTitle": "ON Network에 오신 것을 환영합니다",
+  "onboardingWelcomeDesc": "이제 당신은 새로운 디지털 생태계의 선구자입니다. 당신의 여정은 오늘 시작됩니다.",
+  "onboardingMineTitle": "탭하여 채굴하기",
+  "onboardingMineDesc": "24시간마다 전원 버튼을 탭하여 당신이 인간임을 증명하고 ON 코인을 획득하세요.",
+  "onboardingTeamTitle": "팀 구성하기",
+  "onboardingTeamDesc": "친구들을 초대하여 팀에 합류시키세요. 활성 멤버가 많을수록 더 빨리 수익을 얻을 수 있습니다.",
+  "onboardingStart": "시작하기!",
+  "onboardingNext": "다음",
+
+  "homeScreenTitle": "ON Network",
+  "homeLangEnglish": "English",
+  "homeLangTurkish": "Türkçe",
+  "homeLangIndonesian": "Bahasa Indonesia",
+  "homeLangVietnamese": "Tiếng Việt",
+  "homeLangSpanish": "Español",
+  "homeLangHindi": "हिन्दी",
+  "homeLangPortuguese": "Português",
+  "homeLangArabic": "العربية",
+  "homeLangRussian": "Русский",
+  "homeLangGerman": "Deutsch",
+  "homeLangFrench": "Français",
+  "homeLangJapanese": "日本語",
+  "homeLangKorean": "한국어",
+  "homeErrorLoading": "데이터 로딩 오류. 연결을 확인하고 다시 시도하세요.\n상세: {error}",
+  "@homeErrorLoading": {
+    "description": "Error message when home screen data fails to load",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection timed out"
+      }
+    }
+  },
+
+  "homeStatsBaseRate": "기본 속도",
+  "homeStatsBaseRateSubtitle": "현재 기본 속도",
+  "homeStatsBaseRateInfoTitle": "기본 속도",
+  "homeStatsBaseRateInfo": "현재 기본 채굴 속도입니다. 네트워크가 성장함에 따라 반감기 일정에 따라 모든 사용자의 속도가 전 세계적으로 감소합니다.",
+  "homeStatsEffectiveRate": "유효 속도",
+  "homeStatsEffectiveRateBoost2x": " (2배 부스트!)",
+  "homeStatsEffectiveRateBoost1_5x": " (1.5배 부스트!)",
+  "homeStatsEffectiveRateSubtitle": "팀으로부터 +{bonus} ({percent}%)",
+  "@homeStatsEffectiveRateSubtitle": {
+    "placeholders": {
+      "bonus": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "homeStatsEffectiveRateInfoTitle": "유효 속도",
+  "homeStatsEffectiveRateInfo": "현재 총 채굴 속도:\n기본 속도 + (활성 팀원 수 * 보너스 등급 % * 기본 속도)",
+  "homeStatsEffectiveRateInfoStarterBoost": "\n\n🚀 현재 2배 스타터 부스트가 적용 중입니다!",
+  "homeStatsEffectiveRateInfoAdBoost": "\n\n⏱️ 광고 부스트가 활성화되었습니다!",
+
+  "homeStatsGlobalMined": "총 채굴량",
+  "homeStatsGlobalMinedInfoTitle": "총 채굴량",
+  "homeStatsGlobalMinedInfo": "초기 목표인 10억 ON을 향해 전 세계 모든 선구자가 채굴한 ON 코인의 총량입니다.",
+  "homeStatsNextHalving": "다음 반감기",
+  "homeStatsNextHalvingCurrent": "현재: {count}",
+  "@homeStatsNextHalvingCurrent": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeStatsNextHalvingInfoTitle": "채굴 속도 반감기",
+  "homeStatsNextHalvingInfo": "더 많은 선구자가 참여함에 따라 기본 채굴 속도가 전 세계적으로 감소합니다. 개인 기본 속도도 이에 따라 업데이트됩니다.\n\n**단계 1: 파이오니어 (0 - 10만)**\n• 0 - 1만: 1.00 ON/시간\n• 1만 - 2만: 0.95 ON/시간\n• 2만 - 3만: 0.90 ON/시간\n• 3만 - 4만: 0.85 ON/시간\n• 5만 - 6만: 0.80 ON/시간\n• 6만 - 7만: 0.75 ON/시간\n• 7만 - 8만: 0.70 ON/시간\n• 8만 - 9만: 0.65 ON/시간\n• 9만 - 10만: 0.60 ON/시간\n• 9만 - 10만: 0.55 ON/시간\n\n**단계 2: 앰버서더 (10만 - 100만)**\n• 10만 - 20만: 0.45 ON/시간\n• 20만 - 30만: 0.40 ON/시간\n• 30만 - 40만: 0.34 ON/시간\n• 40만 - 50만: 0.28 ON/시간\n• 50만 - 60만: 0.21 ON/시간\n• 60만 - 70만: 0.15 ON/시간\n• 70만 - 80만: 0.10 ON/시간\n• 80만 - 90만: 0.06 ON/시간\n• 90만 - 100만: 0.03 ON/시간\n\n**단계 3: 가디언 (100만 이상)**\n• 100만 - 200만: 0.01 ON/시간\n• 200만 이상: 0.005 ON/시간 (최종 레거시 속도)\n\n유효 속도는 현재 등급(스탠다드 25%, 브론즈 27%, 실버 30%, 골드 35%)에 따라 활성 팀원 1인당 현재 기본 속도에 적용되어 증가합니다.",
+  "homeStatsMainnet": "메인넷",
+  "homeStatsMainnetInfoTitle": "메인넷 카운트다운",
+  "homeStatsMainnetInfo": "메인넷 출시 예정일입니다. 이 시점에 ON 코인 배포(채굴)가 중단되고 ON 마켓플레이스가 완전히 운영됩니다.",
+
+  "homeMiningStatus": "{count}명의 활성 멤버와 함께 시간당 {rate} ON{boost} 채굴 중",
+  "@homeMiningStatus": {
+    "placeholders": {
+      "rate": { "type": "String" },
+      "boost": { "type": "String" },
+      "count": { "type": "String" }
+    }
+  },
+  "homeMiningStatusClaim": "버튼을 탭하여 지난 세션 수익을 받고 새 세션을 시작하세요!",
+  "homeMiningStatusStart": "버튼을 탭하여 채굴을 시작하세요!",
+  "homeMiningButtonActive": "활성",
+  "homeMiningStarterBoost": "스타터 부스트 활성 중! (2배 속도)",
+  "homeMiningAdBoost": "광고 부스트 활성: {duration}",
+  "@homeMiningAdBoost": {
+    "placeholders": { "duration": { "type": "String" } }
+  },
+  "homeMiningAdButton": "1.5배 부스트 광고 보기 (남은 횟수: {count}회)",
+  "@homeMiningAdButton": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeMiningAdLoading": "부스트 광고 로딩 중...",
+  "homeMiningAdLoadingShort": "광고 부스트 로딩 중...",
+  "homeMiningAdLimit": "일일 광고 부스트 한도에 도달했습니다.",
+  "homeActivateSnackbar": "채굴 세션을 활성화하는 중...",
+  "homeActivatedSnackbar": "채굴 세션이 활성화되었습니다! 지난 세션의 수익이 추가되었습니다.",
+  "homeDialogOK": "확인",
+
+  "teamScreenTitle": "나의 팀",
+  "teamRefreshTooltip": "팀 새로고침",
+  "teamRefreshSnackbar": "팀 데이터를 새로고침하는 중...",
+  "teamErrorInviteCode": "초대 코드를 불러올 수 없습니다",
+  "teamInviteCode": "나의 초대 코드: {code}",
+  "@teamInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamErrorLoading": "팀원을 불러올 수 없습니다.\n연결을 확인하세요.",
+  "teamYourContribution": "나의 기여: +{rate} ON/시간",
+  "@teamYourContribution": {
+    "placeholders": { "rate": { "type": "String" } }
+  },
+  "teamBonusTier": "나의 보너스 등급: {tier} ({percent}%)",
+  "@teamBonusTier": {
+    "placeholders": {
+      "tier": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "teamNextGoal": "다음 목표: {goal}",
+  "@teamNextGoal": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "teamNextGoalMax": "최고 등급에 도달했습니다!",
+  "teamNextGoalBronze": "브론즈 (27%)까지 {count}명 남음",
+  "teamNextGoalSilver": "실버 (30%)까지 {count}명 남음",
+  "teamNextGoalGold": "골드 (35%)까지 {count}명 남음",
+  "teamMemberCount": "현재 팀원: {total}명 ({active}명 활성)",
+  "@teamMemberCount": {
+    "placeholders": {
+      "total": { "type": "String" },
+      "active": { "type": "String" }
+    }
+  },
+  "teamInviteButton": "새 멤버 초대하기",
+  "teamEmptyTitle": "팀이 비어있습니다.",
+  "teamEmptyDescription": "코드를 사용하여 친구를 초대하고 팀을 구성하여 채굴 속도를 높이세요!",
+  "teamMemberActive": "활성 중",
+  "teamMemberInactive": "비활성",
+  "teamMemberTapToRemind": "탭하여 알림 보내기",
+  "teamMemberTooltipReport": "사용자 신고하기",
+  "teamMemberTooltipRemind": "사용자에게 알림 보내기",
+  "teamRemindSnackbar": "{username}님에게 알림을 보내는 중...",
+  "@teamRemindSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamRemindError": "알림 전송 실패: {error}",
+  "@teamRemindError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamRemindSuccess": "{username}님에게 알림을 보냈습니다!",
+  "@teamRemindSuccess": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogTitle": "{username}님 신고하기",
+  "@teamReportDialogTitle": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogContent": "부적절한 콘텐츠(예: 사용자 이름 또는 프로필 사진)로 이 사용자를 신고하시겠습니까?\n\n검토를 위해 운영팀에 알림이 전송됩니다.",
+  "teamReportDialogButton": "신고하기",
+  "teamReportSnackbar": "{username}님에 대한 신고를 제출하는 중...",
+  "@teamReportSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportSuccess": "신고가 제출되었습니다. 운영팀이 곧 검토할 것입니다.",
+  "teamReportError": "신고 제출 실패: {error}",
+  "@teamReportError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTitle": "초대 공유하기",
+  "teamShareSubtitle": "초대를 어떻게 공유하시겠습니까?",
+  "teamShareImageButton": "이미지 카드로 공유",
+  "teamShareTextButton": "텍스트로 공유",
+  "teamShareImageGenerating": "초대 카드 생성 중...",
+  "teamShareImageError": "카드 공유 오류: {error}. 대신 텍스트로 공유합니다.",
+  "@teamShareImageError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTextMessage": "ON Network와 함께 디지털 네트워크의 미래를 만들어가고 있습니다. 제 팀에 당신을 초대합니다! 🔥\n\n가입 환영 선물:\n✅ 즉시 1 ON 코인 무료 지급\n✅ 24시간 2배 속도 부스트\n\n초대 코드로 시작하세요: {code}\n\n지금 가입하고 자리를 확보하세요:\nhttps://onnetworkapp.com",
+  "@teamShareTextMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamShareImageMessage": "ON Network에서 제 팀에 합류하세요! 제 코드 사용: {code}\n\n지금 가입하기:\nhttps://onnetworkapp.com",
+  "@teamShareImageMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+
+  "inviteCardInvitesYou": "{username}님이 당신을 초대합니다",
+  "@inviteCardInvitesYou": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "inviteCardTitle": "당신의 여정은 여기서 시작됩니다!",
+  "inviteCardUseCode": "제 초대 코드를 사용하세요",
+  "inviteCardGiftTitle": "지금 가입하고 환영 선물을 받으세요:",
+  "inviteCardGift1": "즉시 1 ON 코인 무료 지급",
+  "inviteCardGift2": "24시간 2배 속도 부스트",
+  "inviteCardButton": "탭하여 가입하고 ON 받기!",
+
+  "marketplaceTitle": "마켓플레이스: 곧 출시",
+  "marketplaceDescription": "획득한 ON 코인을 사용하여 상품과 서비스를 사고팔 수 있는 탈중앙화 마켓플레이스를 구축하고 있습니다.\n\n계속 채굴하여 잔액을 쌓으세요!",
+  "marketplaceCommunity": "커뮤니티 참여하기",
+  "marketplaceTooltipTelegram": "Telegram 참여하기",
+  "marketplaceTooltipTwitter": "X (Twitter) 팔로우하기",
+  "marketplaceTooltipInstagram": "Instagram 팔로우하기",
+  "marketplaceTooltipTikTok": "TikTok에서 시청하기",
+  "marketplaceTooltipWebsite": "웹사이트 방문하기",
+
+  "profileScreenTitle": "프로필",
+  "profileUsername": "사용자 이름",
+  "profileErrorUsernameLength": "사용자 이름은 4자 이상이어야 합니다",
+  "profileErrorUsernameTaken": "이미 사용 중인 사용자 이름입니다. 다른 이름을 시도하세요.",
+  "profileUsernameUpdated": "사용자 이름이 업데이트되었습니다!",
+  "profileImageUploadFailed": "이미지 업로드 실패.",
+  "profileImageUploadSuccess": "프로필 사진이 업데이트되었습니다!",
+  "profileErrorImageSave": "이미지 URL 저장 실패: {error}",
+  "@profileErrorImageSave": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "profileSectionCommunity": "커뮤니티",
+  "profileInviteCode": "나의 초대 코드: {code}",
+  "@profileInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "profileShare": "탭하여 공유하기",
+  "profileCopyCode": "코드 복사",
+  "profileCopyCodeSubtitle": "초대 코드를 클립보드에 복사합니다",
+  "profileCopyCodeSuccess": "초대 코드가 클립보드에 복사되었습니다!",
+  "profileTelegram": "Telegram 참여하기",
+  "profileTelegramSubtitle": "뉴스를 받고 커뮤니티와 대화하세요",
+  "profileTwitter": "X (Twitter) 팔로우하기",
+  "profileTwitterSubtitle": "공지사항 확인하기",
+  "profileInstagram": "Instagram 팔로우하기",
+  "profileInstagramSubtitle": "우리의 여정 보기",
+  "profileTikTok": "TikTok에서 시청하기",
+  "profileTikTokSubtitle": "최신 업데이트 및 클립",
+  "profileWebsite": "웹사이트 방문하기",
+  "profileWebsiteSubtitle": "onnetworkapp.com",
+
+  "profileSectionSettings": "설정 및 보안",
+  "profileNotifSettings": "알림 설정",
+  "profileNotifSettingsSubtitle": "앱 알림 관리",
+  "profileChangePassword": "비밀번호 변경",
+  "profileChangePasswordSubtitle": "비밀번호 재설정 이메일 보내기",
+  "profileChangePasswordSuccess": "비밀번호 재설정 이메일이 전송되었습니다. 받은 편지함을 확인하세요!",
+
+  "profileSectionAbout": "정보",
+  "profileProjectInfo": "프로젝트 정보 & 백서",
+  "profileProjectInfoSubtitle": "비전과 로드맵 알아보기",
+  "profileTerms": "이용약관",
+  "profileTermsSubtitle": "이용약관 읽기",
+  "profilePrivacy": "개인정보 처리방침",
+  "profilePrivacySubtitle": "데이터 처리 방법",
+
+  "profileSectionDanger": "위험 구역",
+  "profileDeleteAccount": "계정 삭제",
+  "profileDeleteAccountSubtitle": "계정과 모든 데이터를 영구적으로 삭제합니다",
+  "profileDeleteAccountDialogTitle": "정말로 삭제하시겠습니까?",
+  "profileDeleteAccountDialogContent": "이 작업은 되돌릴 수 없습니다.\n\nON 코인 잔액 및 팀 연결을 포함한 모든 데이터가 영구적으로 삭제됩니다. 이는 되돌릴 수 없습니다.",
+  "profileDeleteAccountDialogButton": "내 계정 삭제",
+  "profileDeleteAccountSuccess": "계정이 영구적으로 삭제되었습니다.",
+  "profileDeleteAccountError": "계정 삭제 오류: {error}",
+  "@profileDeleteAccountError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "profileSignOut": "로그아웃",
+  "profileSignOutError": "로그아웃 오류: {error}",
+  "@profileSignOutError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "settingsTitle": "알림 설정",
+  "settingsMiningTitle": "채굴 세션 알림",
+  "settingsMiningSubtitle": "24시간 세션이 종료되면 알림을 받습니다.",
+  "settingsTeamTitle": "팀 알림",
+  "settingsTeamSubtitle": "팀원이 채굴 시작을 위해 당신에게 \"핑\"을 보낼 수 있도록 허용합니다.",
+  "settingsAdBoostTitle": "광고 부스트 알림",
+  "settingsAdBoostSubtitle": "1.5배 광고 부스트가 만료되면 알림을 받습니다.",
+  "settingsErrorUpdate": "설정 업데이트 실패: {error}",
+  "@settingsErrorUpdate": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "projectInfoTitle": "우리의 비전",
+  "projectInfoSection1Title": "ON Network란 무엇인가요?",
+  "projectInfoSection1Content": "ON Network는 미래를 위해 설계된 탈중앙화 디지털 생태계입니다. 24시간마다 버튼을 탭함으로써, 당신은 인간 선구자로서의 존재를 인증하고 네트워크의 보안과 성장에 기여합니다. 그 대가로, 당신은 우리 네트워크의 고유 디지털 통화인 ON을 획득합니다.",
+  "projectInfoSection2Title": "ON 코인의 유용성",
+  "projectInfoSection2Content": "당신이 획득하고 있는 ON 코인은 현재 당신과 같은 초기 선구자들에게 배포되고 있습니다. 네트워크가 성장함에 따라, ON의 주요 목적은 미래의 마켓플레이스에서 거래를 촉진하고 네트워크 기능을 지원하는 것입니다. 네트워크가 성장함에 따라 채굴 속도는 감소하며, 이는 커뮤니티 구축에 대한 초기 참여를 보상합니다.",
+  "projectInfoSection3Title": "우리의 로드맵",
+  "projectInfoRoadmap1Title": "단계 1: 파이오니어 (현재 위치)",
+  "projectInfoRoadmap1Content": "네트워크를 0에서 1백만 명의 선구자로 성장시킵니다. 참여를 통해 ON 코인을 배포합니다.",
+  "projectInfoRoadmap2Title": "단계 2: 마켓플레이스",
+  "projectInfoRoadmap2Content": "멤버들이 획득한 ON 코인을 사용하여 상품과 서비스를 교환할 수 있는 ON 마켓플레이스를 출시합니다.",
+  "projectInfoRoadmap3Title": "단계 3: 메인넷 및 거래소",
+  "projectInfoRoadmap3Content": "완전한 탈중앙화 블록체인(메인넷)으로 전환하고, 주요 암호화폐 플랫폼에서 ON 기능을 활성화합니다(규정 준수 대상).",
+
+  "settingsLangTitle": "언어",
+  "settingsLangSubtitle": "애플리케이션 언어 변경",
+"marketplaceTooltipEmail": "지원팀에 문의",
+  "profileEmail": "지원팀에 문의",
+  "profileEmailSubtitle": "support@onnetworkapp.com",
+  "marketplaceTooltipFacebook": "Facebook에서 팔로우하기",
+    "marketplaceTooltipYoutube": "YouTube 구독하기",
+    "profileFacebook": "Facebook에서 팔로우하기",
+    "profileFacebookSubtitle": "업데이트 및 커뮤니티 보기",
+    "profileYoutube": "YouTube 구독하기",
+    "profileYoutubeSubtitle": "프로젝트 업데이트 및 튜토리얼 보기"
+}

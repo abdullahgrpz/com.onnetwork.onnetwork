@@ -1,0 +1,352 @@
+{
+  "helloWorld": "こんにちは、世界！",
+
+  "updateRequiredTitle": "アップデートが必要です",
+  "updateRequiredMessage": "ON Networkの新しい改良版が利用可能です。収益を得続けるには、アプリをアップデートする必要があります。",
+  "updateNowButton": "今すぐアップデート",
+
+  "navHome": "ホーム",
+  "navTeam": "チーム",
+  "navMarketplace": "マーケット",
+  "navProfile": "プロフィール",
+
+  "authWelcomeBack": "おかえりなさい！",
+  "authCreateAccount": "アカウントを作成",
+  "authEmail": "メールアドレス",
+  "authErrorEmailEmpty": "メールアドレスを入力してください",
+  "authErrorEmailInvalid": "有効なメールアドレスを入力してください",
+  "authPassword": "パスワード",
+  "authErrorPasswordEmpty": "パスワードを入力してください",
+  "authErrorPasswordLength": "パスワードは6文字以上である必要があります",
+  "authConfirmPassword": "パスワードを確認",
+  "authErrorConfirmPasswordEmpty": "パスワードを確認してください",
+  "authErrorPasswordsNoMatch": "パスワードが一致しません",
+  "authUsername": "ユーザー名",
+  "authUsernameHint": "3文字以上である必要があります",
+  "authErrorUsernameLength": "ユーザー名は3文字以上である必要があります。",
+  "authInviteCode": "招待コード (任意)",
+  "authInviteCodeHint": "例: A41DB9X1",
+  "authAgeConfirmation": "私は18歳以上であり、法的に本サービスを利用する資格があります。",
+  "authTermsConfirmationPrefix": "私は",
+  "authTermsOfService": "利用規約",
+  "authTermsConfirmationMid": "および",
+  "authPrivacyPolicy": "プライバシーポリシー",
+  "authTermsConfirmationSuffix": "を読み、同意します。",
+  "authErrorAge": "ON Networkを利用するには18歳以上である必要があります。",
+  "authErrorTerms": "利用規約とプライバシーポリシーに同意する必要があります。",
+  "authLogin": "ログイン",
+  "authRegister": "登録",
+  "authSignInWithGoogle": "Googleでサインイン",
+  "authSignUpWithGoogle": "Googleで登録",
+  "authSwitchToRegister": "アカウントをお持ちではありませんか？ 登録",
+  "authSwitchToLogin": "すでにアカウントをお持ちですか？ ログイン",
+  "authForgotPassword": "パスワードをお忘れですか？",
+  "authResetPassword": "パスワードをリセット",
+  "authEnterEmailHint": "メールアドレスを入力",
+  "authCancel": "キャンセル",
+  "authSendResetLink": "リセットリンクを送信",
+  "authResetLinkSent": "パスワードリセット用のリンクをメールアドレスに送信しました。",
+
+  "onboardingWelcomeTitle": "ON Networkへようこそ",
+  "onboardingWelcomeDesc": "あなたは今、新しいデジタルエコシステムのパイオニアです。あなたの旅は今日から始まります。",
+  "onboardingMineTitle": "タップしてマイニング",
+  "onboardingMineDesc": "24時間ごとに電源ボタンをタップして、あなたが人間であることを証明し、ONコインを獲得しましょう。",
+  "onboardingTeamTitle": "チームを構築",
+  "onboardingTeamDesc": "友達を招待してチームに参加してもらいましょう。アクティブなメンバーが多いほど、より速く稼ぐことができます。",
+  "onboardingStart": "始めましょう！",
+  "onboardingNext": "次へ",
+
+  "homeScreenTitle": "ON Network",
+  "homeLangEnglish": "English",
+  "homeLangTurkish": "Türkçe",
+  "homeLangIndonesian": "Bahasa Indonesia",
+  "homeLangVietnamese": "Tiếng Việt",
+  "homeLangSpanish": "Español",
+  "homeLangHindi": "हिन्दी",
+  "homeLangPortuguese": "Português",
+  "homeLangArabic": "العربية",
+  "homeLangRussian": "Русский",
+  "homeLangGerman": "Deutsch",
+  "homeLangFrench": "Français",
+  "homeLangJapanese": "日本語",
+  "homeLangKorean": "한국어",
+  "homeErrorLoading": "データの読み込みエラー。接続を確認して、もう一度お試しください。\n詳細: {error}",
+  "@homeErrorLoading": {
+    "description": "Error message when home screen data fails to load",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection timed out"
+      }
+    }
+  },
+
+  "homeStatsBaseRate": "ベースレート",
+  "homeStatsBaseRateSubtitle": "現在の基本速度",
+  "homeStatsBaseRateInfoTitle": "ベースレート",
+  "homeStatsBaseRateInfo": "これは現在の基本獲得速度です。ネットワークが成長するにつれて、半減期スケジュールに従い、すべてのユーザーのレートが世界的に減少します。",
+  "homeStatsEffectiveRate": "実効レート",
+  "homeStatsEffectiveRateBoost2x": " (2Xブースト中!)",
+  "homeStatsEffectiveRateBoost1_5x": " (1.5Xブースト中!)",
+  "homeStatsEffectiveRateSubtitle": "チームから+{bonus} ({percent}%)",
+  "@homeStatsEffectiveRateSubtitle": {
+    "placeholders": {
+      "bonus": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "homeStatsEffectiveRateInfoTitle": "実効レート",
+  "homeStatsEffectiveRateInfo": "現在の総獲得速度:\nベースレート + (アクティブなチームメンバー * あなたのボーナスティア% * ベースレート)",
+  "homeStatsEffectiveRateInfoStarterBoost": "\n\n🚀 現在、2Xスターターブースト中です！",
+  "homeStatsEffectiveRateInfoAdBoost": "\n\n⏱️ 広告ブーストが有効です！",
+
+  "homeStatsGlobalMined": "総採掘量",
+  "homeStatsGlobalMinedInfoTitle": "総採掘量",
+  "homeStatsGlobalMinedInfo": "全世界のパイオニアによって採掘されたONコインの総量。初期目標は10億ONです。",
+  "homeStatsNextHalving": "次の半減期",
+  "homeStatsNextHalvingCurrent": "現在: {count}",
+  "@homeStatsNextHalvingCurrent": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeStatsNextHalvingInfoTitle": "獲得レートの半減期",
+  "homeStatsNextHalvingInfo": "参加するパイオニアが増えるにつれて、基本獲得レートは世界的に減少します。あなたの個人ベースレートもそれに応じて更新されます。\n\n**フェーズ1：パイオニア (0 - 10万人)**\n• 0 - 1万人: 1.00 ON/時\n• 1万 - 2万人: 0.95 ON/時\n• 2万 - 3万人: 0.90 ON/時\n• 3万 - 4万人: 0.85 ON/時\n• 5万 - 6万人: 0.80 ON/時\n• 6万 - 7万人: 0.75 ON/時\n• 7万 - 8万人: 0.70 ON/時\n• 8万 - 9万人: 0.65 ON/時\n• 9万 - 10万人: 0.60 ON/時\n• 9万 - 10万人: 0.55 ON/時\n\n**フェーズ2：アンバサダー (10万 - 100万人)**\n• 10万 - 20万人: 0.45 ON/時\n• 20万 - 30万人: 0.40 ON/時\n• 30万 - 40万人: 0.34 ON/時\n• 40万 - 50万人: 0.28 ON/時\n• 50万 - 60万人: 0.21 ON/時\n• 60万 - 70万人: 0.15 ON/時\n• 70万 - 80万人: 0.10 ON/時\n• 80万 - 90万人: 0.06 ON/時\n• 90万 - 100万人: 0.03 ON/時\n\n**フェーズ3：ガーディアン (100万人以上)**\n• 100万 - 200万人: 0.01 ON/時\n• 200万人以上: 0.005 ON/時 (最終レガシーレート)\n\n実効レートは、アクティブなチームメンバーに基づき、現在のティア（スタンダード25%、ブロンズ27%、シルバー30%、ゴールド35%）がアクティブなメンバーごとにあなたの現在のベースレートに適用されて増加します。",
+  "homeStatsMainnet": "メインネット",
+  "homeStatsMainnetInfoTitle": "メインネットカウントダウン",
+  "homeStatsMainnetInfo": "これはメインネットローンチの予定日です。この時点で、ONコインの配布（獲得）は停止し、ONマーケットプレイスが完全に稼働します。",
+
+  "homeMiningStatus": "{count}人のアクティブメンバーと{rate} ON/時{boost}で獲得中",
+  "@homeMiningStatus": {
+    "placeholders": {
+      "rate": { "type": "String" },
+      "boost": { "type": "String" },
+      "count": { "type": "String" }
+    }
+  },
+  "homeMiningStatusClaim": "ボタンをタップして前回のセッション報酬を受け取り、新しく開始しましょう！",
+  "homeMiningStatusStart": "ボタンをタップして獲得を開始しましょう！",
+  "homeMiningButtonActive": "アクティブ",
+  "homeMiningStarterBoost": "スターターブースト発動中！ (2X スピード)",
+  "homeMiningAdBoost": "広告ブースト有効中: {duration}",
+  "@homeMiningAdBoost": {
+    "placeholders": { "duration": { "type": "String" } }
+  },
+  "homeMiningAdButton": "1.5Xブーストのために広告を見る (残り{count}回)",
+  "@homeMiningAdButton": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeMiningAdLoading": "ブースト広告を読み込み中...",
+  "homeMiningAdLoadingShort": "広告ブーストを読み込み中...",
+  "homeMiningAdLimit": "1日の広告ブースト上限に達しました。",
+  "homeActivateSnackbar": "獲得セッションを開始しています...",
+  "homeActivatedSnackbar": "獲得セッションが開始されました！前回のセッションの収益が追加されました。",
+  "homeDialogOK": "OK",
+
+  "teamScreenTitle": "あなたのチーム",
+  "teamRefreshTooltip": "チームを更新",
+  "teamRefreshSnackbar": "チームデータを更新しています...",
+  "teamErrorInviteCode": "招待コードを読み込めませんでした",
+  "teamInviteCode": "あなたの招待コード: {code}",
+  "@teamInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamErrorLoading": "チームメンバーを読み込めませんでした。\n接続を確認してください。",
+  "teamYourContribution": "あなたの貢献: +{rate} ON/時",
+  "@teamYourContribution": {
+    "placeholders": { "rate": { "type": "String" } }
+  },
+  "teamBonusTier": "あなたのボーナスティア: {tier} ({percent}%)",
+  "@teamBonusTier": {
+    "placeholders": {
+      "tier": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "teamNextGoal": "次の目標: {goal}",
+  "@teamNextGoal": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "teamNextGoalMax": "最大ティアに到達しました！",
+  "teamNextGoalBronze": "ブロンズ (27%) まであと{count}人",
+  "teamNextGoalSilver": "シルバー (30%) まであと{count}人",
+  "teamNextGoalGold": "ゴールド (35%) まであと{count}人",
+  "teamMemberCount": "現在のチームメンバー: {total}人 ({active}人アクティブ)",
+  "@teamMemberCount": {
+    "placeholders": {
+      "total": { "type": "String" },
+      "active": { "type": "String" }
+    }
+  },
+  "teamInviteButton": "新しいメンバーを招待",
+  "teamEmptyTitle": "あなたのチームには誰もいません。",
+  "teamEmptyDescription": "コードを使って友達を招待し、チームを作ってマイニングレートを上げましょう！",
+  "teamMemberActive": "アクティブ",
+  "teamMemberInactive": "非アクティブ",
+  "teamMemberTapToRemind": "タップして通知",
+  "teamMemberTooltipReport": "ユーザーを報告",
+  "teamMemberTooltipRemind": "ユーザーに通知",
+  "teamRemindSnackbar": "{username}に通知を送信中...",
+  "@teamRemindSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamRemindError": "通知の送信に失敗しました: {error}",
+  "@teamRemindError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamRemindSuccess": "{username}に通知を送信しました！",
+  "@teamRemindSuccess": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogTitle": "{username}を報告",
+  "@teamReportDialogTitle": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogContent": "不適切なコンテンツ（例：ユーザー名やプロフィール写真）のため、このユーザーを本当に報告しますか？\n\nこれにより、審査のためにモデレーションチームに通知が送信されます。",
+  "teamReportDialogButton": "報告",
+  "teamReportSnackbar": "{username}の報告を送信中...",
+  "@teamReportSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportSuccess": "報告が送信されました。チームが間もなく確認します。",
+  "teamReportError": "報告の送信に失敗しました: {error}",
+  "@teamReportError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTitle": "招待を共有",
+  "teamShareSubtitle": "どのように招待を共有しますか？",
+  "teamShareImageButton": "画像カードとして共有",
+  "teamShareTextButton": "テキストとして共有",
+  "teamShareImageGenerating": "招待カードを生成中...",
+  "teamShareImageError": "カードの共有エラー: {error}。代わりにテキストとして共有します。",
+  "@teamShareImageError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTextMessage": "私はON Networkでデジタルの未来を築いています。あなたもチームに参加しませんか！🔥\n\n参加ウェルカムギフトはこちら:\n✅ 1 ONコインをすぐにプレゼント\n✅ 24時間 2X スピードブースト\n\n招待コードを使って始めましょう: {code}\n\n今すぐ参加してあなたの場所を確保しましょう:\nhttps://onnetworkapp.com",
+  "@teamShareTextMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamShareImageMessage": "ON Networkで私のチームに参加しよう！私のコードを使ってください: {code}\n\n今すぐ参加:\nhttps://onnetworkapp.com",
+  "@teamShareImageMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+
+  "inviteCardInvitesYou": "{username}があなたを招待しています",
+  "@inviteCardInvitesYou": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "inviteCardTitle": "あなたの旅はここから始まる！",
+  "inviteCardUseCode": "私の招待コードを使用",
+  "inviteCardGiftTitle": "今すぐ参加してウェルカムギフトをゲット:",
+  "inviteCardGift1": "1 ONコインをすぐにプレゼント",
+  "inviteCardGift2": "24時間 2X スピードブースト",
+  "inviteCardButton": "タップして参加＆ONを獲得！",
+
+  "marketplaceTitle": "マーケットプレイス: 近日公開",
+  "marketplaceDescription": "私たちは、獲得したONコインを使用して商品やサービスを売買できる分散型マーケットプレイスを構築しています。\n\nマイニングを続けて残高を増やしましょう！",
+  "marketplaceCommunity": "コミュニティに参加",
+  "marketplaceTooltipTelegram": "Telegramに参加",
+  "marketplaceTooltipTwitter": "X (Twitter)でフォロー",
+  "marketplaceTooltipInstagram": "Instagramでフォロー",
+  "marketplaceTooltipTikTok": "TikTokで視聴",
+  "marketplaceTooltipWebsite": "ウェブサイトを見る",
+
+  "profileScreenTitle": "プロフィール",
+  "profileUsername": "ユーザー名",
+  "profileErrorUsernameLength": "ユーザー名は4文字以上である必要があります",
+  "profileErrorUsernameTaken": "このユーザー名はすでに使用されています。別の名前をお試しください。",
+  "profileUsernameUpdated": "ユーザー名が更新されました！",
+  "profileImageUploadFailed": "画像のアップロードに失敗しました。",
+  "profileImageUploadSuccess": "プロフィール写真が更新されました！",
+  "profileErrorImageSave": "画像URLの保存に失敗しました: {error}",
+  "@profileErrorImageSave": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "profileSectionCommunity": "コミュニティ",
+  "profileInviteCode": "あなたの招待コード: {code}",
+  "@profileInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "profileShare": "タップして共有",
+  "profileCopyCode": "コードをコピー",
+  "profileCopyCodeSubtitle": "招待コードをクリップボードにコピーします",
+  "profileCopyCodeSuccess": "招待コードをクリップボードにコピーしました！",
+  "profileTelegram": "Telegramに参加",
+  "profileTelegramSubtitle": "ニュースを入手し、コミュニティとチャット",
+  "profileTwitter": "X (Twitter)でフォロー",
+  "profileTwitterSubtitle": "最新のお知らせをチェック",
+  "profileInstagram": "Instagramでフォロー",
+  "profileInstagramSubtitle": "私たちの歩みを見る",
+  "profileTikTok": "TikTokで視聴",
+  "profileTikTokSubtitle": "最新のアップデートとクリップ",
+  "profileWebsite": "ウェブサイトを見る",
+  "profileWebsiteSubtitle": "onnetworkapp.com",
+
+  "profileSectionSettings": "設定とセキュリティ",
+  "profileNotifSettings": "通知設定",
+  "profileNotifSettingsSubtitle": "アプリの通知を管理します",
+  "profileChangePassword": "パスワードを変更",
+  "profileChangePasswordSubtitle": "パスワードリセットメールを送信",
+  "profileChangePasswordSuccess": "パスワードリセットメールを送信しました。受信トレイを確認してください！",
+
+  "profileSectionAbout": "概要",
+  "profileProjectInfo": "プロジェクト情報とホワイトペーパー",
+  "profileProjectInfoSubtitle": "私たちのビジョンとロードマップについて学ぶ",
+  "profileTerms": "利用規約",
+  "profileTermsSubtitle": "利用規約をお読みください",
+  "profilePrivacy": "プライバシーポリシー",
+  "profilePrivacySubtitle": "データの取り扱い方法",
+
+  "profileSectionDanger": "危険ゾーン",
+  "profileDeleteAccount": "アカウントを削除",
+  "profileDeleteAccountSubtitle": "アカウントとすべてのデータを完全に削除します",
+  "profileDeleteAccountDialogTitle": "本当によろしいですか？",
+  "profileDeleteAccountDialogContent": "この操作は元に戻すことはできません。\n\nONコインの残高やチーム接続を含むすべてのデータが完全に削除されます。これは元に戻せません。",
+  "profileDeleteAccountDialogButton": "アカウントを削除",
+  "profileDeleteAccountSuccess": "アカウントは完全に削除されました。",
+  "profileDeleteAccountError": "アカウントの削除中にエラーが発生しました: {error}",
+  "@profileDeleteAccountError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "profileSignOut": "サインアウト",
+  "profileSignOutError": "サインアウト中にエラーが発生しました: {error}",
+  "@profileSignOutError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "settingsTitle": "通知設定",
+  "settingsMiningTitle": "マイニングセッションのリマインダー",
+  "settingsMiningSubtitle": "24時間のセッションが終了したときに通知を受け取ります。",
+  "settingsTeamTitle": "チームリマインダー",
+  "settingsTeamSubtitle": "チームメンバーがマイニングを開始するようにあなたに「合図」することを許可します。",
+  "settingsAdBoostTitle": "広告ブーストのリマインダー",
+  "settingsAdBoostSubtitle": "1.5X広告ブーストが期限切れになったときに通知を受け取ります。",
+  "settingsErrorUpdate": "設定の更新に失敗しました: {error}",
+  "@settingsErrorUpdate": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "projectInfoTitle": "私たちのビジョン",
+  "projectInfoSection1Title": "ON Networkとは？",
+  "projectInfoSection1Content": "ON Networkは、未来のために設計された分散型デジタルエコシステムです。24時間ごとにボタンをタップすることで、あなたは人間としての存在を証明し、ネットワークのセキュリティと成長に貢献します。その見返りとして、私たちのネットワークのネイティブデジタル通貨であるONを獲得します。",
+  "projectInfoSection2Title": "ONコインのユーティリティ",
+  "projectInfoSection2Content": "あなたが獲得しているONコインは、現在、あなたのような初期のパイオニアに配布されています。ネットワークが成長するにつれて、ONの主な目的は、将来のマーケットプレイスでの取引を容易にし、ネットワーク機能をサポートすることです。ネットワークが成長するにつれて獲得レートは低下し、コミュニティ構築への早期参加に報酬を与えます。",
+  "projectInfoSection3Title": "私たちのロードマップ",
+  "projectInfoRoadmap1Title": "フェーズ1：パイオニア (現在地)",
+  "projectInfoRoadmap1Content": "ネットワークを0から100万人のパイオニアに成長させます。エンゲージメントを通じてONコインを配布します。",
+  "projectInfoRoadmap2Title": "フェーズ2：マーケットプレイス",
+  "projectInfoRoadmap2Content": "メンバーが獲得したONコインを使用して商品やサービスを交換できるONマーケットプレイスを開始します。",
+  "projectInfoRoadmap3Title": "フェーズ3：メインネットと取引所",
+  "projectInfoRoadmap3Content": "完全に分散化されたブロックチェーン（メインネット）に移行し、主要な暗号通貨プラットフォームでONの機能を有効にします（コンプライアンスに従う）。",
+
+  "settingsLangTitle": "言語",
+  "settingsLangSubtitle": "アプリの言語を変更する",
+"marketplaceTooltipEmail": "サポートに連絡",
+  "profileEmail": "サポートに連絡",
+  "profileEmailSubtitle": "support@onnetworkapp.com",
+  "marketplaceTooltipFacebook": "Facebookでフォロー",
+    "marketplaceTooltipYoutube": "YouTubeをチャンネル登録",
+    "profileFacebook": "Facebookでフォロー",
+    "profileFacebookSubtitle": "アップデートとコミュニティを見る",
+    "profileYoutube": "YouTubeをチャンネル登録",
+    "profileYoutubeSubtitle": "プロジェクトのアップデートとチュートリアルを見る"
+}

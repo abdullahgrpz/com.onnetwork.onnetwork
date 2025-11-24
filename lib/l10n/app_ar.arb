@@ -1,0 +1,352 @@
+{
+  "helloWorld": "أهلاً بالعالم!",
+
+  "updateRequiredTitle": "تحديث مطلوب",
+  "updateRequiredMessage": "يتوفر إصدار جديد ومُحسَّن من شبكة ON. يجب عليك تحديث التطبيق لمواصلة الكسب.",
+  "updateNowButton": "التحديث الآن",
+
+  "navHome": "الرئيسية",
+  "navTeam": "الفريق",
+  "navMarketplace": "السوق",
+  "navProfile": "الملف الشخصي",
+
+  "authWelcomeBack": "مرحباً بعودتك!",
+  "authCreateAccount": "أنشئ حسابك",
+  "authEmail": "البريد الإلكتروني",
+  "authErrorEmailEmpty": "يُرجى إدخال بريد إلكتروني",
+  "authErrorEmailInvalid": "يُرجى إدخال عنوان بريد إلكتروني صالح",
+  "authPassword": "كلمة المرور",
+  "authErrorPasswordEmpty": "يُرجى إدخال كلمة المرور",
+  "authErrorPasswordLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+  "authConfirmPassword": "تأكيد كلمة المرور",
+  "authErrorConfirmPasswordEmpty": "يُرجى تأكيد كلمة المرور",
+  "authErrorPasswordsNoMatch": "كلمتا المرور غير متطابقتين",
+  "authUsername": "اسم المستخدم",
+  "authUsernameHint": "يجب أن يكون 3 أحرف على الأقل",
+  "authErrorUsernameLength": "يجب أن يكون اسم المستخدم 3 أحرف على الأقل.",
+  "authInviteCode": "رمز الدعوة (اختياري)",
+  "authInviteCodeHint": "مثال: A41DB9X1",
+  "authAgeConfirmation": "أبلغ من العمر 18 عامًا أو أكثر وأنا مؤهل قانونًا لاستخدام هذه الخدمة.",
+  "authTermsConfirmationPrefix": "لقد قرأت ووافقت على ",
+  "authTermsOfService": "شروط الخدمة",
+  "authTermsConfirmationMid": " و ",
+  "authPrivacyPolicy": "سياسة الخصوصية",
+  "authTermsConfirmationSuffix": ".",
+  "authErrorAge": "يجب أن يكون عمرك 18 عامًا أو أكثر لاستخدام شبكة ON.",
+  "authErrorTerms": "يجب أن توافق على شروط الخدمة وسياسة الخصوصية.",
+  "authLogin": "تسجيل الدخول",
+  "authRegister": "تسجيل",
+  "authSignInWithGoogle": "تسجيل الدخول باستخدام Google",
+  "authSignUpWithGoogle": "التسجيل باستخدام Google",
+  "authSwitchToRegister": "ليس لديك حساب؟ سجل الآن",
+  "authSwitchToLogin": "هل لديك حساب بالفعل؟ تسجيل الدخول",
+  "authForgotPassword": "هل نسيت كلمة المرور؟",
+  "authResetPassword": "إعادة تعيين كلمة المرور",
+  "authEnterEmailHint": "أدخل بريدك الإلكتروني",
+  "authCancel": "إلغاء",
+  "authSendResetLink": "إرسال رابط إعادة التعيين",
+  "authResetLinkSent": "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.",
+
+  "onboardingWelcomeTitle": "مرحبًا بك في شبكة ON",
+  "onboardingWelcomeDesc": "أنت الآن رائد في نظام بيئي رقمي جديد. رحلتك تبدأ اليوم.",
+  "onboardingMineTitle": "انقر للتعدين",
+  "onboardingMineDesc": "انقر على زر الطاقة كل 24 ساعة لإثبات أنك إنسان واكسب عملات ON الخاصة بك.",
+  "onboardingTeamTitle": "كوّن فريقك",
+  "onboardingTeamDesc": "ادعُ أصدقاءك للانضمام إلى فريقك. كلما زاد عدد الأعضاء النشطين لديك، زادت سرعة كسبك.",
+  "onboardingStart": "لنبدأ!",
+  "onboardingNext": "التالي",
+
+  "homeScreenTitle": "شبكة ON",
+  "homeLangEnglish": "English",
+  "homeLangTurkish": "Türkçe",
+  "homeLangIndonesian": "Bahasa Indonesia",
+  "homeLangVietnamese": "Tiếng Việt",
+  "homeLangSpanish": "Español",
+  "homeLangHindi": "हिन्दी",
+  "homeLangPortuguese": "Português",
+  "homeLangArabic": "العربية",
+  "homeLangRussian": "Русский",
+  "homeLangGerman": "Deutsch",
+  "homeLangFrench": "Français",
+  "homeLangJapanese": "日本語",
+  "homeLangKorean": "한국어",
+  "homeErrorLoading": "خطأ في تحميل البيانات. يُرجى التحقق من اتصالك والمحاولة مرة أخرى.\nالتفاصيل: {error}",
+  "@homeErrorLoading": {
+    "description": "Error message when home screen data fails to load",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection timed out"
+      }
+    }
+  },
+
+  "homeStatsBaseRate": "المعدل الأساسي",
+  "homeStatsBaseRateSubtitle": "سرعتك الأساسية الحالية",
+  "homeStatsBaseRateInfoTitle": "المعدل الأساسي",
+  "homeStatsBaseRateInfo": "هذه هي سرعة الكسب الأساسية الحالية الخاصة بك. تنخفض عالميًا لجميع المستخدمين مع نمو الشبكة، وفقًا لجدول التنصيف (halving).",
+  "homeStatsEffectiveRate": "المعدل الفعال",
+  "homeStatsEffectiveRateBoost2x": " (تعزيز 2X!)",
+  "homeStatsEffectiveRateBoost1_5x": " (تعزيز 1.5X!)",
+  "homeStatsEffectiveRateSubtitle": "+{bonus} من الفريق ({percent}%)",
+  "@homeStatsEffectiveRateSubtitle": {
+    "placeholders": {
+      "bonus": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "homeStatsEffectiveRateInfoTitle": "المعدل الفعال",
+  "homeStatsEffectiveRateInfo": "سرعة الكسب الإجمالية الحالية:\nالمعدل الأساسي + (أعضاء الفريق النشطون * مستوى البونص % * المعدل الأساسي)",
+  "homeStatsEffectiveRateInfoStarterBoost": "\n\n🚀 أنت حاليًا تستفيد من تعزيز البداية 2X!",
+  "homeStatsEffectiveRateInfoAdBoost": "\n\n⏱️ تعزيز الإعلان نشط!",
+
+  "homeStatsGlobalMined": "المُعدَّن عالميًا",
+  "homeStatsGlobalMinedInfoTitle": "المُعدَّن عالميًا",
+  "homeStatsGlobalMinedInfo": "إجمالي عدد عملات ON التي كسبها جميع الرواد حول العالم نحو الهدف الأولي البالغ 1 مليار ON.",
+  "homeStatsNextHalving": "التنصيف التالي",
+  "homeStatsNextHalvingCurrent": "الحالي: {count}",
+  "@homeStatsNextHalvingCurrent": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeStatsNextHalvingInfoTitle": "تنصيف معدل الكسب",
+  "homeStatsNextHalvingInfo": "ينخفض معدل الكسب الأساسي عالميًا مع انضمام المزيد من الرواد. يتم تحديث معدلك الأساسي الشخصي وفقًا لذلك.\n\n**المرحلة 1: الرواد (0 - 100 ألف)**\n• 0 - 10 آلاف: 1.00 ON/ساعة\n• 10 آلاف - 20 ألف: 0.95 ON/ساعة\n• 20 ألف - 30 ألف: 0.90 ON/ساعة\n• 30 ألف - 40 ألف: 0.85 ON/ساعة\n• 50 ألف - 60 ألف: 0.80 ON/ساعة\n• 60 ألف - 70 ألف: 0.75 ON/ساعة\n• 70 ألف - 80 ألف: 0.70 ON/ساعة\n• 80 ألف - 90 ألف: 0.65 ON/ساعة\n• 90 ألف - 100 ألف: 0.60 ON/ساعة\n• 90 ألف - 100 ألف: 0.55 ON/ساعة\n\n**المرحلة 2: السفراء (100 ألف - 1 مليون)**\n• 100 ألف - 200 ألف: 0.45 ON/ساعة\n• 200 ألف - 300 ألف: 0.40 ON/ساعة\n• 300 ألف - 400 ألف: 0.34 ON/ساعة\n• 400 ألف - 500 ألف: 0.28 ON/ساعة\n• 500 ألف - 600 ألف: 0.21 ON/ساعة\n• 600 ألف - 700 ألف: 0.15 ON/ساعة\n• 700 ألف - 800 ألف: 0.10 ON/ساعة\n• 800 ألف - 900 ألف: 0.06 ON/ساعة\n• 900 ألف - 1 مليون: 0.03 ON/ساعة\n\n**المرحلة 3: الحراس (1 مليون+)**\n• 1 مليون - 2 مليون: 0.01 ON/ساعة\n• 2 مليون+ : 0.005 ON/ساعة (المعدل الموروث النهائي)\n\nيزداد معدلك الفعال مع أعضاء الفريق النشطين بناءً على مستواك الحالي (قياسي 25%، برونزي 27%، فضي 30%، ذهبي 35%) مطبقًا على معدلك الأساسي الحالي لكل عضو نشط.",
+  "homeStatsMainnet": "الشبكة الرئيسية (Mainnet)",
+  "homeStatsMainnetInfoTitle": "العد التنازلي للشبكة الرئيسية",
+  "homeStatsMainnetInfo": "هذا هو التاريخ المحدد لإطلاق شبكتنا الرئيسية. عند هذه النقطة، سيتوقف توزيع (كسب) عملة ON وسيعمل سوق ON بشكل كامل.",
+
+  "homeMiningStatus": "تكسب بمعدل {rate} ON/ساعة{boost} مع {count} عضو نشط",
+  "@homeMiningStatus": {
+    "placeholders": {
+      "rate": { "type": "String" },
+      "boost": { "type": "String" },
+      "count": { "type": "String" }
+    }
+  },
+  "homeMiningStatusClaim": "انقر على الزر للمطالبة بأرباح الجلسة السابقة وبدء جلسة جديدة!",
+  "homeMiningStatusStart": "انقر على الزر لبدء الكسب!",
+  "homeMiningButtonActive": "نشط",
+  "homeMiningStarterBoost": "تعزيز البداية نشط! (سرعة 2X)",
+  "homeMiningAdBoost": "تعزيز الإعلان نشط لمدة: {duration}",
+  "@homeMiningAdBoost": {
+    "placeholders": { "duration": { "type": "String" } }
+  },
+  "homeMiningAdButton": "شاهد إعلانًا لتعزيز 1.5X ({count} متبقية)",
+  "@homeMiningAdButton": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeMiningAdLoading": "جاري تحميل إعلان التعزيز...",
+  "homeMiningAdLoadingShort": "جاري تحميل تعزيز الإعلان...",
+  "homeMiningAdLimit": "تم الوصول إلى الحد الأقصى لتعزيز الإعلانات اليومي.",
+  "homeActivateSnackbar": "جاري تفعيل جلسة الكسب...",
+  "homeActivatedSnackbar": "تم تفعيل جلسة الكسب! تمت إضافة أرباح الجلسة السابقة.",
+  "homeDialogOK": "موافق",
+
+  "teamScreenTitle": "فريقك",
+  "teamRefreshTooltip": "تحديث الفريق",
+  "teamRefreshSnackbar": "جاري تحديث بيانات الفريق...",
+  "teamErrorInviteCode": "لا يمكن تحميل رمز الدعوة",
+  "teamInviteCode": "رمز الدعوة الخاص بك: {code}",
+  "@teamInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamErrorLoading": "لا يمكن تحميل أعضاء الفريق.\nيُرجى التحقق من اتصالك.",
+  "teamYourContribution": "مساهمتك: +{rate} ON/ساعة",
+  "@teamYourContribution": {
+    "placeholders": { "rate": { "type": "String" } }
+  },
+  "teamBonusTier": "مستوى البونص: {tier} ({percent}%)",
+  "@teamBonusTier": {
+    "placeholders": {
+      "tier": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "teamNextGoal": "الهدف التالي: {goal}",
+  "@teamNextGoal": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "teamNextGoalMax": "تم الوصول إلى أقصى مستوى!",
+  "teamNextGoalBronze": "{count} أعضاء إضافيين للبرونزي (27%)",
+  "teamNextGoalSilver": "{count} أعضاء إضافيين للفضي (30%)",
+  "teamNextGoalGold": "{count} أعضاء إضافيين للذهبي (35%)",
+  "teamMemberCount": "أعضاء الفريق الحاليون: {total} ({active} نشطون)",
+  "@teamMemberCount": {
+    "placeholders": {
+      "total": { "type": "String" },
+      "active": { "type": "String" }
+    }
+  },
+  "teamInviteButton": "دعوة أعضاء جدد",
+  "teamEmptyTitle": "فريقك فارغ.",
+  "teamEmptyDescription": "ادعُ الأصدقاء باستخدام الرمز الخاص بك لبناء فريقك وزيادة معدل التعدين!",
+  "teamMemberActive": "نشط الآن",
+  "teamMemberInactive": "غير نشط",
+  "teamMemberTapToRemind": "انقر للتذكير",
+  "teamMemberTooltipReport": "الإبلاغ عن مستخدم",
+  "teamMemberTooltipRemind": "تذكير المستخدم",
+  "teamRemindSnackbar": "جاري إرسال تذكير إلى {username}...",
+  "@teamRemindSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamRemindError": "فشل إرسال التذكير: {error}",
+  "@teamRemindError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamRemindSuccess": "تم إرسال تذكير إلى {username}!",
+  "@teamRemindSuccess": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogTitle": "الإبلاغ عن {username}",
+  "@teamReportDialogTitle": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogContent": "هل أنت متأكد أنك تريد الإبلاغ عن هذا المستخدم لمحتوى غير لائق (مثل اسم المستخدم أو صورة الملف الشخصي)؟\n\nسيؤدي هذا إلى إرسال إشعار إلى فريق الإشراف لدينا للمراجعة.",
+  "teamReportDialogButton": "إبلاغ",
+  "teamReportSnackbar": "جاري إرسال البلاغ عن {username}...",
+  "@teamReportSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportSuccess": "تم إرسال البلاغ. سيقوم فريقنا بمراجعته قريبًا.",
+  "teamReportError": "فشل إرسال البلاغ: {error}",
+  "@teamReportError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTitle": "شارك دعوتك",
+  "teamShareSubtitle": "كيف ترغب في مشاركة دعوتك؟",
+  "teamShareImageButton": "مشاركة كبطاقة صورة",
+  "teamShareTextButton": "مشاركة كنص عادي",
+  "teamShareImageGenerating": "جاري إنشاء بطاقة الدعوة الخاصة بك...",
+  "teamShareImageError": "خطأ في مشاركة البطاقة: {error}. تتم المشاركة كنص بدلاً من ذلك.",
+  "@teamShareImageError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTextMessage": "أنا أبني مستقبل الشبكات الرقمية مع شبكة ON. أريدك في فريقي! 🔥\n\nإليك هدية ترحيبك للانضمام:\n✅ 1 عملة ON مجانية على الفور\n✅ تعزيز سرعة 2X لمدة 24 ساعة\n\nاستخدم رمز دعوتي للبدء: {code}\n\nانضم الآن واحصل على مكانك:\nhttps://onnetworkapp.com",
+  "@teamShareTextMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamShareImageMessage": "انضم إلى فريقي على شبكة ON! استخدم الرمز الخاص بي: {code}\n\nانضم الآن:\nhttps://onnetworkapp.com",
+  "@teamShareImageMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+
+  "inviteCardInvitesYou": "{username} يدعوك للانضمام",
+  "@inviteCardInvitesYou": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "inviteCardTitle": "رحلتك تبدأ هنا!",
+  "inviteCardUseCode": "استخدم رمز دعوتي",
+  "inviteCardGiftTitle": "انضم الآن واحصل على هدية ترحيبك:",
+  "inviteCardGift1": "1 عملة ON مجانية على الفور",
+  "inviteCardGift2": "تعزيز سرعة 2X لمدة 24 ساعة",
+  "inviteCardButton": "انقر للانضمام والمطالبة بعملة ON!",
+
+  "marketplaceTitle": "السوق: قريباً",
+  "marketplaceDescription": "نحن نبني سوقًا لامركزيًا حيث ستتمكن من شراء وبيع السلع والخدمات باستخدام عملات ON التي كسبتها.\n\nاستمر في التعدين وبناء رصيدك!",
+  "marketplaceCommunity": "انضم إلى المجتمع",
+  "marketplaceTooltipTelegram": "انضم إلى تيليجرام الخاص بنا",
+  "marketplaceTooltipTwitter": "تابعنا على X (تويتر)",
+  "marketplaceTooltipInstagram": "تابعنا على انستجرام",
+  "marketplaceTooltipTikTok": "شاهدنا على تيك توك",
+  "marketplaceTooltipWebsite": "قم بزيارة موقعنا",
+
+  "profileScreenTitle": "الملف الشخصي",
+  "profileUsername": "اسم المستخدم",
+  "profileErrorUsernameLength": "يجب أن يكون اسم المستخدم 4 أحرف على الأقل",
+  "profileErrorUsernameTaken": "اسم المستخدم هذا مستخدم بالفعل. يُرجى تجربة اسم آخر.",
+  "profileUsernameUpdated": "تم تحديث اسم المستخدم!",
+  "profileImageUploadFailed": "فشل تحميل الصورة.",
+  "profileImageUploadSuccess": "تم تحديث صورة الملف الشخصي!",
+  "profileErrorImageSave": "فشل حفظ رابط الصورة: {error}",
+  "@profileErrorImageSave": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "profileSectionCommunity": "المجتمع",
+  "profileInviteCode": "رمز دعوتك: {code}",
+  "@profileInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "profileShare": "انقر للمشاركة",
+  "profileCopyCode": "نسخ الرمز",
+  "profileCopyCodeSubtitle": "انسخ رمز دعوتك إلى الحافظة",
+  "profileCopyCodeSuccess": "تم نسخ رمز الدعوة إلى الحافظة!",
+  "profileTelegram": "انضم إلى تيليجرام",
+  "profileTelegramSubtitle": "احصل على الأخبار وتحدث مع المجتمع",
+  "profileTwitter": "تابعنا على X (تويتر)",
+  "profileTwitterSubtitle": "ابق على اطلاع بالإعلانات",
+  "profileInstagram": "تابعنا على انستجرام",
+  "profileInstagramSubtitle": "شاهد رحلتنا",
+  "profileTikTok": "شاهدنا على تيك توك",
+  "profileTikTokSubtitle": "آخر التحديثات والمقاطع",
+  "profileWebsite": "قم بزيارة موقعنا",
+  "profileWebsiteSubtitle": "onnetworkapp.com",
+
+  "profileSectionSettings": "الإعدادات والأمان",
+  "profileNotifSettings": "إعدادات الإشعارات",
+  "profileNotifSettingsSubtitle": "إدارة إشعارات التطبيق",
+  "profileChangePassword": "تغيير كلمة المرور",
+  "profileChangePasswordSubtitle": "إرسال بريد إلكتروني لإعادة تعيين كلمة المرور",
+  "profileChangePasswordSuccess": "تم إرسال بريد إعادة تعيين كلمة المرور. تحقق من بريدك!",
+
+  "profileSectionAbout": "حول",
+  "profileProjectInfo": "معلومات المشروع والورقة البيضاء",
+  "profileProjectInfoSubtitle": "تعرف على رؤيتنا وخارطة الطريق",
+  "profileTerms": "شروط الخدمة",
+  "profileTermsSubtitle": "اقرأ الشروط والأحكام الخاصة بنا",
+  "profilePrivacy": "سياسة الخصوصية",
+  "profilePrivacySubtitle": "كيف نتعامل مع بياناتك",
+
+  "profileSectionDanger": "منطقة الخطر",
+  "profileDeleteAccount": "حذف الحساب",
+  "profileDeleteAccountSubtitle": "احذف حسابك وجميع بياناتك بشكل دائم",
+  "profileDeleteAccountDialogTitle": "هل أنت متأكد تمامًا؟",
+  "profileDeleteAccountDialogContent": "هذا الإجراء لا يمكن التراجع عنه.\n\nسيتم حذف جميع بياناتك، بما في ذلك رصيد عملات ON واتصالات فريقك، بشكل دائم. لا يمكن التراجع عن هذا.",
+  "profileDeleteAccountDialogButton": "حذف حسابي",
+  "profileDeleteAccountSuccess": "تم حذف الحساب بشكل دائم.",
+  "profileDeleteAccountError": "خطأ أثناء حذف الحساب: {error}",
+  "@profileDeleteAccountError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "profileSignOut": "تسجيل الخروج",
+  "profileSignOutError": "خطأ أثناء تسجيل الخروج: {error}",
+  "@profileSignOutError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "settingsTitle": "إعدادات الإشعارات",
+  "settingsMiningTitle": "تذكيرات جلسة التعدين",
+  "settingsMiningSubtitle": "تلقي إشعار عند انتهاء جلستك البالغة 24 ساعة.",
+  "settingsTeamTitle": "تذكيرات الفريق",
+  "settingsTeamSubtitle": "اسمح لأعضاء فريقك \"بنكزك\" لبدء التعدين.",
+  "settingsAdBoostTitle": "تذكيرات تعزيز الإعلان",
+  "settingsAdBoostSubtitle": "تلقي إشعار عند انتهاء صلاحية تعزيز الإعلان 1.5X.",
+  "settingsErrorUpdate": "فشل تحديث الإعدادات: {error}",
+  "@settingsErrorUpdate": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "projectInfoTitle": "رؤيتنا",
+  "projectInfoSection1Title": "ما هي شبكة ON؟",
+  "projectInfoSection1Content": "شبكة ON هي نظام بيئي رقمي لامركزي مصمم للمستقبل. من خلال النقر على الزر كل 24 ساعة، فإنك تثبت وجودك كرائد بشري وتساهم في أمان الشبكة ونموها. في المقابل، تكسب ON، العملة الرقمية الأصلية لشبكتنا.",
+  "projectInfoSection2Title": "فائدة عملة ON",
+  "projectInfoSection2Content": "يتم حاليًا توزيع عملات ON التي تكسبها على الرواد الأوائل مثلك. مع نمو الشبكة، سيكون الغرض الأساسي لـ ON هو تسهيل المعاملات في السوق المستقبلي ودعم وظائف الشبكة. ينخفض معدل الكسب مع نمو الشبكة، مما يكافئ المشاركة المبكرة في بناء المجتمع.",
+  "projectInfoSection3Title": "خارطة طريقنا",
+  "projectInfoRoadmap1Title": "المرحلة 1: الرواد (أنت هنا)",
+  "projectInfoRoadmap1Content": "تنمية الشبكة من 0 إلى 1 مليون رائد. توزيع عملة ON من خلال المشاركة.",
+  "projectInfoRoadmap2Title": "المرحلة 2: السوق",
+  "projectInfoRoadmap2Content": "إطلاق سوق ON حيث يمكن للأعضاء تبادل السلع والخدمات باستخدام عملات ON التي كسبوها.",
+  "projectInfoRoadmap3Title": "المرحلة 3: الشبكة الرئيسية (Mainnet) والبورصة",
+  "projectInfoRoadmap3Content": "الانتقال إلى بلوكتشين لامركزي بالكامل (Mainnet) وتمكين وظائف ON على منصات العملات المشفرة الرئيسية (رهنا بالامتثال).",
+
+  "settingsLangTitle": "اللغة",
+  "settingsLangSubtitle": "تغيير لغة التطبيق",
+ "marketplaceTooltipEmail": "اتصل بالدعم",
+   "profileEmail": "اتصل بالدعم",
+   "profileEmailSubtitle": "support@onnetworkapp.com",
+   "marketplaceTooltipFacebook": "تابعنا على فيسبوك",
+     "marketplaceTooltipYoutube": "اشترك في قناتنا على يوتيوب",
+     "profileFacebook": "تابعنا على فيسبوك",
+     "profileFacebookSubtitle": "شاهد تحديثاتنا ومجتمعنا",
+     "profileYoutube": "اشترك في قناتنا على يوتيوب",
+     "profileYoutubeSubtitle": "شاهد تحديثات المشروع والبرامج التعليمية"
+}

@@ -1,0 +1,351 @@
+{
+  "helloWorld": "Hallo Welt!",
+
+  "updateRequiredTitle": "Aktualisierung erforderlich",
+  "updateRequiredMessage": "Eine neue, verbesserte Version von ON Network ist verfügbar. Du musst die App aktualisieren, um weiterhin verdienen zu können.",
+  "updateNowButton": "Jetzt aktualisieren",
+
+  "navHome": "Startseite",
+  "navTeam": "Team",
+  "navMarketplace": "Marktplatz",
+  "navProfile": "Profil",
+
+  "authWelcomeBack": "Willkommen zurück!",
+  "authCreateAccount": "Erstelle dein Konto",
+  "authEmail": "E-Mail",
+  "authErrorEmailEmpty": "Bitte gib eine E-Mail-Adresse ein",
+  "authErrorEmailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein",
+  "authPassword": "Passwort",
+  "authErrorPasswordEmpty": "Bitte gib dein Passwort ein",
+  "authErrorPasswordLength": "Passwort muss mindestens 6 Zeichen lang sein",
+  "authConfirmPassword": "Passwort bestätigen",
+  "authErrorConfirmPasswordEmpty": "Bitte bestätige dein Passwort",
+  "authErrorPasswordsNoMatch": "Passwörter stimmen nicht überein",
+  "authUsername": "Benutzername",
+  "authUsernameHint": "Muss mindestens 3 Zeichen lang sein",
+  "authErrorUsernameLength": "Benutzername muss mindestens 3 Zeichen lang sein.",
+  "authInviteCode": "Einladungscode (Optional)",
+  "authInviteCodeHint": "z.B. A41DB9X1",
+  "authAgeConfirmation": "Ich bin 18 Jahre oder älter und rechtlich befugt, diesen Dienst zu nutzen.",
+  "authTermsConfirmationPrefix": "Ich habe die ",
+  "authTermsOfService": "Nutzungsbedingungen",
+  "authTermsConfirmationMid": " und die ",
+  "authPrivacyPolicy": "Datenschutzrichtlinie",
+  "authTermsConfirmationSuffix": " gelesen und stimme ihnen zu.",
+  "authErrorAge": "Du musst 18 Jahre oder älter sein, um das ON Network zu nutzen.",
+  "authErrorTerms": "Du musst den Nutzungsbedingungen und der Datenschutzrichtlinie zustimmen.",
+  "authLogin": "Anmelden",
+  "authRegister": "Registrieren",
+  "authSignInWithGoogle": "Mit Google anmelden",
+  "authSignUpWithGoogle": "Mit Google registrieren",
+  "authSwitchToRegister": "Kein Konto? Registrieren",
+  "authSwitchToLogin": "Schon ein Konto? Anmelden",
+  "authForgotPassword": "Passwort vergessen?",
+  "authResetPassword": "Passwort zurücksetzen",
+  "authEnterEmailHint": "Gib deine E-Mail-Adresse ein",
+  "authCancel": "Abbrechen",
+  "authSendResetLink": "Link zum Zurücksetzen senden",
+  "authResetLinkSent": "Link zum Zurücksetzen des Passworts an deine E-Mail gesendet.",
+
+  "onboardingWelcomeTitle": "Willkommen bei ON Network",
+  "onboardingWelcomeDesc": "Du bist jetzt ein Pionier in einem neuen digitalen Ökosystem. Deine Reise beginnt heute.",
+  "onboardingMineTitle": "Tippen zum Minen",
+  "onboardingMineDesc": "Tippe alle 24 Stunden auf den Power-Button, um zu beweisen, dass du ein Mensch bist und deine ON-Coins zu verdienen.",
+  "onboardingTeamTitle": "Baue dein Team auf",
+  "onboardingTeamDesc": "Lade deine Freunde ein, deinem Team beizutreten. Je mehr aktive Mitglieder du hast, desto schneller verdienst du.",
+  "onboardingStart": "Los geht's!",
+  "onboardingNext": "Weiter",
+
+  "homeLangEnglish": "English",
+    "homeLangTurkish": "Türkçe",
+    "homeLangIndonesian": "Bahasa Indonesia",
+    "homeLangVietnamese": "Tiếng Việt",
+    "homeLangSpanish": "Español",
+    "homeLangHindi": "हिन्दी",
+    "homeLangPortuguese": "Português",
+    "homeLangArabic": "العربية",
+    "homeLangRussian": "Русский",
+    "homeLangGerman": "Deutsch",
+    "homeLangFrench": "Français",
+    "homeLangJapanese": "日本語",
+    "homeLangKorean": "한국어",
+  "homeErrorLoading": "Fehler beim Laden der Daten. Bitte prüfe deine Verbindung und versuche es erneut.\nDetails: {error}",
+  "@homeErrorLoading": {
+    "description": "Error message when home screen data fails to load",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection timed out"
+      }
+    }
+  },
+
+  "homeStatsBaseRate": "Basisrate",
+  "homeStatsBaseRateSubtitle": "Deine aktuelle Basisgeschwindigkeit",
+  "homeStatsBaseRateInfoTitle": "Basisrate",
+  "homeStatsBaseRateInfo": "Dies ist deine aktuelle Basis-Verdienstgeschwindigkeit. Sie sinkt global für alle Benutzer, wenn das Netzwerk wächst, gemäß dem Halving-Zeitplan.",
+  "homeStatsEffectiveRate": "Effektive Rate",
+  "homeStatsEffectiveRateBoost2x": " (2X BOOST!)",
+  "homeStatsEffectiveRateBoost1_5x": " (1.5X BOOST!)",
+  "homeStatsEffectiveRateSubtitle": "+{bonus} vom Team ({percent}%)",
+  "@homeStatsEffectiveRateSubtitle": {
+    "placeholders": {
+      "bonus": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "homeStatsEffectiveRateInfoTitle": "Effektive Rate",
+  "homeStatsEffectiveRateInfo": "Deine aktuelle Gesamt-Verdienstgeschwindigkeit:\nBasisrate + (Aktive Teammitglieder * Dein Bonus-Level % * Basisrate)",
+  "homeStatsEffectiveRateInfoStarterBoost": "\n\n🚀 Du hast derzeit einen 2X Starter-Boost!",
+  "homeStatsEffectiveRateInfoAdBoost": "\n\n⏱️ Werbe-Boost Aktiv!",
+
+  "homeStatsGlobalMined": "Global Gemined",
+  "homeStatsGlobalMinedInfoTitle": "Global Gemined",
+  "homeStatsGlobalMinedInfo": "Die Gesamtmenge der ON-Coins, die von allen Pionieren weltweit auf dem Weg zum ursprünglichen Ziel von 1 Milliarde ON verdient wurden.",
+  "homeStatsNextHalving": "Nächstes Halving",
+  "homeStatsNextHalvingCurrent": "Aktuell: {count}",
+  "@homeStatsNextHalvingCurrent": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeStatsNextHalvingInfoTitle": "Verdienst-Halving",
+  "homeStatsNextHalvingInfo": "Die Basis-Verdienstrate sinkt global, je mehr Pioniere beitreten. Deine persönliche Basisrate wird entsprechend aktualisiert.\n\n**Phase 1: Pioniere (0 - 100k)**\n• 0 - 10k:    1.00 ON/Std\n• 10k - 20k:  0.95 ON/Std\n• 20k - 30k:  0.90 ON/Std\n• 30k - 40k:  0.85 ON/Std\n• 50k - 60k:  0.80 ON/Std\n• 60k - 70k:  0.75 ON/Std\n• 70k - 80k:  0.70 ON/Std\n• 80k - 90k:  0.65 ON/Std\n• 90k - 100k: 0.60 ON/Std\n• 90k - 100k: 0.55 ON/Std\n\n**Phase 2: Botschafter (100k - 1M)**\n• 100k - 200k: 0.45 ON/Std\n• 200k - 300k: 0.40 ON/Std\n• 300k - 400k: 0.34 ON/Std\n• 400k - 500k: 0.28 ON/Std\n• 500k - 600k: 0.21 ON/Std\n• 600k - 700k: 0.15 ON/Std\n• 700k - 800k: 0.10 ON/Std\n• 800k - 900k: 0.06 ON/Std\n• 900k - 1M:   0.03 ON/Std\n\n**Phase 3: Wächter (1M+)**\n• 1M - 2M: 0.01 ON/Std\n• 2M+ :    0.005 ON/Std (Finale Rate)\n\nDeine effektive Rate steigt mit aktiven Teammitgliedern basierend auf deinem aktuellen Level (Standard 25%, Bronze 27%, Silber 30%, Gold 35%), angewendet auf DEINE aktuelle Basisrate pro aktivem Mitglied.",
+  "homeStatsMainnet": "Mainnet",
+  "homeStatsMainnetInfoTitle": "Mainnet-Countdown",
+  "homeStatsMainnetInfo": "Dies ist das geplante Datum für unseren Mainnet-Start. Zu diesem Zeitpunkt wird die Verteilung (Verdienen) der ON-Coins gestoppt und der ON-Marktplatz wird voll funktionsfähig sein.",
+
+  "homeMiningStatus": "Verdiene {rate} ON/Std.{boost} mit {count} aktiven Mitglied(ern)",
+  "@homeMiningStatus": {
+    "placeholders": {
+      "rate": { "type": "String" },
+      "boost": { "type": "String" },
+      "count": { "type": "String" }
+    }
+  },
+  "homeMiningStatusClaim": "Tippe, um Einnahmen der letzten Sitzung zu beanspruchen & neue zu starten!",
+  "homeMiningStatusStart": "Tippe auf den Button, um mit dem Verdienen zu beginnen!",
+  "homeMiningButtonActive": "AKTIV",
+  "homeMiningStarterBoost": "Starter-Boost Aktiv! (2X Geschwindigkeit)",
+  "homeMiningAdBoost": "Werbe-Boost aktiv für: {duration}",
+  "@homeMiningAdBoost": {
+    "placeholders": { "duration": { "type": "String" } }
+  },
+  "homeMiningAdButton": "Video für 1.5X Boost ansehen ({count} übrig)",
+  "@homeMiningAdButton": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "homeMiningAdLoading": "Lade Boost-Werbung...",
+  "homeMiningAdLoadingShort": "Werbe-Boost lädt...",
+  "homeMiningAdLimit": "Tägliches Limit für Werbe-Boosts erreicht.",
+  "homeActivateSnackbar": "Aktiviere Verdienst-Sitzung...",
+  "homeActivatedSnackbar": "Verdienst-Sitzung aktiviert! Einnahmen der letzten Sitzung hinzugefügt.",
+  "homeDialogOK": "OK",
+
+  "teamScreenTitle": "Dein Team",
+  "teamRefreshTooltip": "Team aktualisieren",
+  "teamRefreshSnackbar": "Teamdaten werden aktualisiert...",
+  "teamErrorInviteCode": "Einladungscode konnte nicht geladen werden",
+  "teamInviteCode": "Dein Einladungscode: {code}",
+  "@teamInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamErrorLoading": "Teammitglieder konnten nicht geladen werden.\nBitte prüfe deine Verbindung.",
+  "teamYourContribution": "Dein Beitrag: +{rate} ON/Stunde",
+  "@teamYourContribution": {
+    "placeholders": { "rate": { "type": "String" } }
+  },
+  "teamBonusTier": "Dein Bonus-Level: {tier} ({percent}%)",
+  "@teamBonusTier": {
+    "placeholders": {
+      "tier": { "type": "String" },
+      "percent": { "type": "String" }
+    }
+  },
+  "teamNextGoal": "Nächstes Ziel: {goal}",
+  "@teamNextGoal": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "teamNextGoalMax": "Maximales Level erreicht!",
+  "teamNextGoalBronze": "{count} weiteres Mitglied für Bronze (27%)",
+  "teamNextGoalSilver": "{count} weitere(s) Mitglied(er) für Silber (30%)",
+  "teamNextGoalGold": "{count} weitere(s) Mitglied(er) für Gold (35%)",
+  "teamMemberCount": "Aktuelle Teammitglieder: {total} ({active} aktiv)",
+  "@teamMemberCount": {
+    "placeholders": {
+      "total": { "type": "String" },
+      "active": { "type": "String" }
+    }
+  },
+  "teamInviteButton": "Neue Mitglieder einladen",
+  "teamEmptyTitle": "Dein Team ist leer.",
+  "teamEmptyDescription": "Lade Freunde mit deinem Code ein, um dein Team aufzubauen und deine Mining-Rate zu erhöhen!",
+  "teamMemberActive": "Jetzt aktiv",
+  "teamMemberInactive": "Inaktiv",
+  "teamMemberTapToRemind": "Tippen, um zu erinnern",
+  "teamMemberTooltipReport": "Benutzer melden",
+  "teamMemberTooltipRemind": "Benutzer erinnern",
+  "teamRemindSnackbar": "Sende Erinnerung an {username}...",
+  "@teamRemindSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamRemindError": "Fehler beim Senden der Erinnerung: {error}",
+  "@teamRemindError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamRemindSuccess": "Erinnerung an {username} gesendet!",
+  "@teamRemindSuccess": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogTitle": "{username} melden",
+  "@teamReportDialogTitle": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportDialogContent": "Bist du sicher, dass du diesen Benutzer wegen unangemessener Inhalte (z.B. Benutzername oder Profilbild) melden möchtest?\n\nDies sendet eine Benachrichtigung an unser Moderationsteam zur Überprüfung.",
+  "teamReportDialogButton": "Melden",
+  "teamReportSnackbar": "Bericht für {username} wird übermittelt...",
+  "@teamReportSnackbar": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "teamReportSuccess": "Bericht übermittelt. Unser Team wird ihn in Kürze prüfen.",
+  "teamReportError": "Fehler beim Übermitteln des Berichts: {error}",
+  "@teamReportError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTitle": "Teile deine Einladung",
+  "teamShareSubtitle": "Wie möchtest du deine Einladung teilen?",
+  "teamShareImageButton": "Als Bildkarte teilen",
+  "teamShareTextButton": "Als reinen Text teilen",
+  "teamShareImageGenerating": "Erstelle deine Einladungskarte...",
+  "teamShareImageError": "Fehler beim Teilen der Karte: {error}. Teile stattdessen als Text.",
+  "@teamShareImageError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "teamShareTextMessage": "Ich baue die Zukunft digitaler Netzwerke mit ON Network. Ich will dich in meinem Team! 🔥\n\nHier ist dein Willkommensgeschenk für den Beitritt:\n✅ 1 GRATIS ON-Coin sofort\n✅ 24-Stunden 2X Geschwindigkeits-Boost\n\nVerwende meinen Einladungscode, um zu starten: {code}\n\nTritt jetzt bei und sichere dir deinen Platz:\nhttps://onnetworkapp.com",
+  "@teamShareTextMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "teamShareImageMessage": "Tritt meinem Team im ON Network bei! Verwende meinen Code: {code}\n\nJetzt beitreten:\nhttps://onnetworkapp.com",
+  "@teamShareImageMessage": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+
+  "inviteCardInvitesYou": "{username} lädt dich ein",
+  "@inviteCardInvitesYou": {
+    "placeholders": { "username": { "type": "String" } }
+  },
+  "inviteCardTitle": "DEINE REISE BEGINNT HIER!",
+  "inviteCardUseCode": "VERWENDE MEINEN EINLADUNGSCODE",
+  "inviteCardGiftTitle": "TRITT JETZT BEI UND ERHALTE DEIN WILLKOMMENSGESCHENK:",
+  "inviteCardGift1": "1 GRATIS ON-Coin sofort",
+  "inviteCardGift2": "24-Stunden 2X Geschwindigkeits-Boost",
+  "inviteCardButton": "TIPPEN, BEITRETEN & DEIN ON ABHOLEN!",
+
+  "marketplaceTitle": "Marktplatz: Demnächst verfügbar",
+  "marketplaceDescription": "Wir bauen einen dezentralen Marktplatz, auf dem du Waren und Dienstleistungen mit deinen verdienten ON-Coins kaufen und verkaufen kannst.\n\nBleib am Minen und baue dein Guthaben auf!",
+  "marketplaceCommunity": "TRITT DER COMMUNITY BEI",
+  "marketplaceTooltipTelegram": "Tritt unserem Telegram bei",
+  "marketplaceTooltipTwitter": "Folge uns auf X (Twitter)",
+  "marketplaceTooltipInstagram": "Folge uns auf Instagram",
+  "marketplaceTooltipTikTok": "Sieh uns auf TikTok",
+  "marketplaceTooltipWebsite": "Besuche unsere Website",
+
+  "profileScreenTitle": "Profil",
+  "profileUsername": "Benutzername",
+  "profileErrorUsernameLength": "Benutzername muss mindestens 4 Zeichen lang sein",
+  "profileErrorUsernameTaken": "Dieser Benutzername ist bereits vergeben. Bitte versuche einen anderen.",
+  "profileUsernameUpdated": "Benutzername aktualisiert!",
+  "profileImageUploadFailed": "Bild-Upload fehlgeschlagen.",
+  "profileImageUploadSuccess": "Profilbild aktualisiert!",
+  "profileErrorImageSave": "Speichern der Bild-URL fehlgeschlagen: {error}",
+  "@profileErrorImageSave": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "profileSectionCommunity": "Community",
+  "profileInviteCode": "Dein Einladungscode: {code}",
+  "@profileInviteCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "profileShare": "Tippen zum Teilen",
+  "profileCopyCode": "Code kopieren",
+  "profileCopyCodeSubtitle": "Kopiere deinen Einladungscode in die Zwischenablage",
+  "profileCopyCodeSuccess": "Einladungscode in die Zwischenablage kopiert!",
+  "profileTelegram": "Tritt unserem Telegram bei",
+  "profileTelegramSubtitle": "Erhalte Neuigkeiten und chatte mit der Community",
+  "profileTwitter": "Folge uns auf X (Twitter)",
+  "profileTwitterSubtitle": "Bleibe auf dem Laufenden mit Ankündigungen",
+  "profileInstagram": "Folge uns auf Instagram",
+  "profileInstagramSubtitle": "Sieh unsere Reise",
+  "profileTikTok": "Sieh uns auf TikTok",
+  "profileTikTokSubtitle": "Neueste Updates und Clips",
+  "profileWebsite": "Besuche unsere Website",
+  "profileWebsiteSubtitle": "onnetworkapp.com",
+
+  "profileSectionSettings": "Einstellungen & Sicherheit",
+  "profileNotifSettings": "Benachrichtigungseinstellungen",
+  "profileNotifSettingsSubtitle": "Verwalte deine App-Benachrichtigungen",
+  "profileChangePassword": "Passwort ändern",
+  "profileChangePasswordSubtitle": "Sende eine E-Mail zum Zurücksetzen des Passworts",
+  "profileChangePasswordSuccess": "E-Mail zum Zurücksetzen des Passworts gesendet. Prüfe deinen Posteingang!",
+
+  "profileSectionAbout": "Über",
+  "profileProjectInfo": "Projekt-Info & Whitepaper",
+  "profileProjectInfoSubtitle": "Erfahre mehr über unsere Vision und Roadmap",
+  "profileTerms": "Nutzungsbedingungen",
+  "profileTermsSubtitle": "Lies unsere Allgemeinen Geschäftsbedingungen",
+  "profilePrivacy": "Datenschutzrichtlinie",
+  "profilePrivacySubtitle": "Wie wir deine Daten behandeln",
+
+  "profileSectionDanger": "Gefahrenzone",
+  "profileDeleteAccount": "Konto löschen",
+  "profileDeleteAccountSubtitle": "Lösche dein Konto und alle Daten endgültig",
+  "profileDeleteAccountDialogTitle": "Bist du dir absolut sicher?",
+  "profileDeleteAccountDialogContent": "Diese Aktion ist unumkehrbar.\n\nAlle deine Daten, einschließlich deines ON-Coin-Guthabens und deiner Teamverbindungen, werden dauerhaft gelöscht. Dies kann nicht rückgängig gemacht werden.",
+  "profileDeleteAccountDialogButton": "Mein Konto löschen",
+  "profileDeleteAccountSuccess": "Konto dauerhaft gelöscht.",
+  "profileDeleteAccountError": "Fehler beim Löschen des Kontos: {error}",
+  "@profileDeleteAccountError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "profileSignOut": "Abmelden",
+  "profileSignOutError": "Fehler beim Abmelden: {error}",
+  "@profileSignOutError": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "settingsTitle": "Benachrichtigungseinstellungen",
+  "settingsMiningTitle": "Mining-Sitzungs-Erinnerungen",
+  "settingsMiningSubtitle": "Werde benachrichtigt, wenn deine 24-Stunden-Sitzung endet.",
+  "settingsTeamTitle": "Team-Erinnerungen",
+  "settingsTeamSubtitle": "Erlaube deinen Teammitgliedern, dich anzupingen, um mit dem Minen zu beginnen.",
+  "settingsAdBoostTitle": "Werbe-Boost-Erinnerungen",
+  "settingsAdBoostSubtitle": "Werde benachrichtigt, wenn dein 1.5X Werbe-Boost abläuft.",
+  "settingsErrorUpdate": "Fehler beim Aktualisieren der Einstellungen: {error}",
+  "@settingsErrorUpdate": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "projectInfoTitle": "Unsere Vision",
+  "projectInfoSection1Title": "Was ist ON Network?",
+  "projectInfoSection1Content": "ON Network ist ein dezentrales digitales Ökosystem, das für die Zukunft konzipiert wurde. Indem du alle 24 Stunden auf den Button tippst, bestätigst du deine Anwesenheit als menschlicher Pionier und trägst zur Sicherheit und zum Wachstum des Netzwerks bei. Im Gegenzug verdienst du ON, die native digitale Währung unseres Netzwerks.",
+  "projectInfoSection2Title": "ON-Coin-Nutzen",
+  "projectInfoSection2Content": "Die ON-Coins, die du verdienst, werden derzeit an frühe Pioniere wie dich verteilt. Wenn das Netzwerk wächst, wird der Hauptzweck von ON darin bestehen, Transaktionen auf dem zukünftigen Marktplatz zu erleichtern und Netzwerkfunktionen zu unterstützen. Die Verdienstrate sinkt, wenn das Netzwerk wächst, um die frühe Teilnahme am Aufbau der Community zu belohnen.",
+  "projectInfoSection3Title": "Unsere Roadmap",
+  "projectInfoRoadmap1Title": "Phase 1: Pioniere (Du bist hier)",
+  "projectInfoRoadmap1Content": "Das Netzwerk von 0 auf 1 Million Pioniere erweitern. ON-Coins durch Engagement verteilen.",
+  "projectInfoRoadmap2Title": "Phase 2: Marktplatz",
+  "projectInfoRoadmap2Content": "Start des ON-Marktplatzes, auf dem Mitglieder Waren und Dienstleistungen mit ihren verdienten ON-Coins austauschen können.",
+  "projectInfoRoadmap3Content": "Phase 3: Mainnet & Börse",
+  "projectInfoRoadmap3Content": "Übergang zu einer vollständig dezentralen Blockchain (Mainnet) und Ermöglichung der ON-Funktionalität auf großen Kryptowährungsplattformen (vorbehaltlich der Einhaltung von Vorschriften).",
+
+  "settingsLangTitle": "Sprache",
+  "settingsLangSubtitle": "Anwendungssprache ändern",
+"marketplaceTooltipEmail": "Support kontaktieren",
+  "profileEmail": "Support kontaktieren",
+  "profileEmailSubtitle": "support@onnetworkapp.com",
+  "marketplaceTooltipFacebook": "Folge uns auf Facebook",
+    "marketplaceTooltipYoutube": "Abonniere unseren YouTube-Kanal",
+    "profileFacebook": "Folge uns auf Facebook",
+    "profileFacebookSubtitle": "Sieh dir unsere Updates und Community an",
+    "profileYoutube": "Abonniere unseren YouTube-Kanal",
+    "profileYoutubeSubtitle": "Sieh dir Projektupdates und Tutorials an"
+}
