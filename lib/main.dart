@@ -53,9 +53,15 @@ Future<void> main() async {
   }
 
   // --- Firebase başlat ---
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  try {
+    if (Firebase.apps.isEmpty) {
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+    }
+  } catch (e) {
+    debugPrint("Firebase zaten başlatılmış, sorun yok: $e");
+  }
 
   // --- Firestore offline desteği ---
   FirebaseFirestore.instance.settings = const Settings(
